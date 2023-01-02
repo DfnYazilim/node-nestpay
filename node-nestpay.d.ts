@@ -45,6 +45,7 @@ export interface INestSecure3dRequest extends INestPaymentRequestMinimal {
     storekey?: string;
     callbackSuccess?: string;
     callbackFail?: string;
+    installment? : number
 }
 
 export interface INestSecure3dRequestReturn {
