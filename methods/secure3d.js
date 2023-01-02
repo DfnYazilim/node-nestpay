@@ -37,6 +37,7 @@ module.exports = function (nestpay) {
                storetype: value.storetype || that.config.storetype,
                lang: value.lang || that.config.lang,
                processType: value.processType || that.config.processType,
+               taksit : value.installment || 0
             },
             url: that.config.endpoints3d[that.config.endpoint],
          }
